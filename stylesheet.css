@@ -1,13 +1,12 @@
 
 body {
-	font-family: "Verdana,sans-serif";	
+	font-family: 'Noto Sans Japanese', sans-serif;
 	background-color: aliceblue;
 	color: #696969;
 	font-size: 16px
 }
 
-h1,h3{
-	font-family: "Arial", sans-serif;
+h1,h3,h4{
 	color: #696969;
 	border-width: 4px; /* 枠の幅 */
 	line-height: 120%; /* 行の高さ */
@@ -19,6 +18,7 @@ img {
     height:auto;
     max-width:100%;
     max-height:100%;
+
  }
 
 #header{
@@ -27,18 +27,15 @@ img {
 	margin: 20px;
 	border-radius: 5px;
 	padding: 15px;
+	font-size: 30px;
 	text-align: center; /* テキストの配置 */
 }
-
-#footer{
-	border-width: 25px; /* 枠の幅 */
-	line-height: 120%; /* 行の高さ */
-	margin: 20px;
-	border-radius: 5px;
-	padding: 15px;
-	text-align: center; /* テキストの配置 */
+.github_icon{
+	margin-right:10px;
 }
-
+.mail_icon{
+	margin-right:10px;
+}
 #main{
 	display: flex;
 }
@@ -49,49 +46,54 @@ img {
 	margin: 10px;
 	border-radius: 5px;
 	padding: 15px;
+}
+.col-1{
 
 }
-
-.col-1
-{
-
-}
-.col-2
-{
+.col-2{
 
 }
 .col-3 { 
- display: flex;	
- flex-direction: column;
- align-items:center;
- justify-content: center;
+	 display: flex;	
+	 flex-direction: column;
+	 align-items:center;
+	 justify-content: center;
 }
 
  
 .img-1{
- width: 260px;
- height: auto;
- margin: 10px;
- background: url('images/img-1.png');
+	 width: 260px;
+	 height: auto;
+	 margin: 10px;
+	 background: url('images/img-1.png');
 }
 .img-2{
- width: 260px;
-height: auto;
-margin: 10px;
- background: url('images/img-2.png');
+	width: 260px;
+	height: auto;
+	margin: 10px;
+	background: url('images/img-2.png');
 }
 
 .img-3{
- width: 260px;
-height: auto;
-margin: 10px;
- background: url('images/img-3.png');
+	width: 260px;
+	height: auto;
+	margin: 10px;
+	background: url('images/img-3.png');
 }
 
 
+#footer{
+	border-width: 25px; /* 枠の幅 */
+	line-height: 120%; /* 行の高さ */
+	margin: 20px;
+	border-radius: 5px;
+	padding: 15px;
+	text-align: center; /* テキストの配置 */
+}
+
 .btn
  {
-background-color: #4CAF50;
+background-color: #FFCCCC;
 border: none;
 display: inline-block;
 outline: 0;
@@ -99,8 +101,8 @@ padding: 8px 16px;
 vertical-align: middle;
 }
 
-.btn-margin-bottom
-{
-color: #FFFFFF;	
+.btn-margin-bottom,.btn-margin-bottom:hover{
+color: #FFFFFF;
+text-decoration:none; 	
 }
 
